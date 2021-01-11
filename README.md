@@ -4,4 +4,4 @@
 ### 005 最长回文串
 
 
-## 最后，每日一练，每日一遍，FUCK Leetcode!
+## 最后，每日一练，每日一遍，From now on, Fuck Leetcode!
