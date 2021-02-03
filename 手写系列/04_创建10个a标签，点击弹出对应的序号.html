@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04_创建10个a标签，点击弹出对应的序号</title>
+</head>
+<body>
+  <p>一段文字</p>
+  <script>
+    let i ,a
+    for(let i=0;i<10;i++) {
+      a = document.createElement('a')
+      a.innerHTML = i + '<br>'
+      a.addEventListener('click',function(e){
+        e.preventDefault()
+        alert(i)
+      })
+      document.body.appendChild(a)
+    }
+  </script>
+</body>
+</html>
