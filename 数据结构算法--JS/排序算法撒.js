@@ -39,6 +39,8 @@ const insertSort = (arr)=>{
   console.log(arr);
 }
 
+// 选择排序
+
 // test
 const test = [1, 0, 4, 5, 6, 3, 2, 1]
 // bubbleSort(test)
